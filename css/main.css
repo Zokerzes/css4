@@ -1,0 +1,116 @@
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card {
+  display: block;
+  font-family: "Geologica", sans-serif;
+  /*font-family: "Inter", sans-serif;*/
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  background-color: aqua;
+  color: #ffffff;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+.line {
+  margin-top: 72px;
+  margin-bottom: 23px;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 23;
+  margin-bottom: 211px;
+  font-family: "Geologica", sans-serif;
+  /*font-family: "Inter", sans-serif;*/
+  text-align: center;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+
+.text img {
+  margin-top: 5px;
+  margin-right: 15px;
+  height: 9px;
+  width: 9px;
+}
+.pink {
+  background-color: #ffe2de;
+}
+.green {
+  background-color: #c4e769;
+}
+.ligthblue {
+  background-color: #62d0df;
+}
+.blue {
+  background-color: #0052c1;
+}
+
+.darkblue {
+  background-color: #22356f;
+}
+
+.grey {
+  background-color: #dee1ff;
+}
+.violet {
+  background-color: #8f00ff;
+}
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 120px;
+}
+.bg-img {
+  background-image: url(/img/joanna-kosinska-340748.png);
+  background-size: cover;
+}
+
+.card1 {
+  display: block;
+  font-family: "Geologica", sans-serif;
+  /*font-family: "Inter", sans-serif;*/
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+  padding-left: 52px;
+  padding-right: 52px;
+}
+
+.line1 {
+  margin-top: 72px;
+  margin-bottom: 23px;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.text1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 23;
+  margin-bottom: 211px;
+  font-family: "Geologica", sans-serif;
+  /*font-family: "Inter", sans-serif;*/
+  text-align: center;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+
+.text1 img {
+  margin-top: 5px;
+  margin-right: 15px;
+  height: 12px;
+  width: 12px;
+}
