@@ -144,6 +144,10 @@ p {
   color: #22356f;
 }
 
+.sec3-img {
+  background-image: url(/img/linkedin-sales-navigator-402831.png);
+  background-size: contain;
+}
 .sec3_general {
   margin-top: 225px;
   margin-bottom: 152px;
@@ -166,4 +170,43 @@ p {
   letter-spacing: 0.1em;
 
   color: #fab63e;
+}
+
+@media screen and (max-width: 1300px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .section3 {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
 }
