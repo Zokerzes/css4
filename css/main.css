@@ -1,3 +1,6 @@
+p {
+  text-align: left;
+}
 .section1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -24,7 +27,7 @@
 
 .text {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 23;
   margin-bottom: 211px;
   font-family: "Geologica", sans-serif;
@@ -51,6 +54,9 @@
 .ligthblue {
   background-color: #62d0df;
 }
+.ligthblue-text {
+  font-style: rgba(108, 211, 225, 1);
+}
 .blue {
   background-color: #0052c1;
 }
@@ -69,6 +75,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 .bg-img {
   background-image: url(/img/joanna-kosinska-340748.png);
@@ -96,7 +103,7 @@
 
 .text1 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 23;
   margin-bottom: 211px;
   font-family: "Geologica", sans-serif;
@@ -113,4 +120,50 @@
   margin-right: 15px;
   height: 12px;
   width: 12px;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.sec3_text {
+  display: block;
+  text-align: left;
+  margin-left: 106px;
+}
+
+.sec3_header {
+  margin-top: 103px;
+  font-family: "Geologica", sans-serif;
+  /*font-family: "Inter", sans-serif;*/
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+
+  color: #22356f;
+}
+
+.sec3_general {
+  margin-top: 225px;
+  margin-bottom: 152px;
+  font-family: "Geologica", sans-serif;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+
+  color: #22356f;
+}
+
+.sec3_bottom {
+  margin-bottom: 42px;
+  font-family: "Geologica", sans-serif;
+  /*font-family: "Inter", sans-serif;*/
+  font-size: 16px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+
+  color: #fab63e;
 }
